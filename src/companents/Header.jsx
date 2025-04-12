@@ -18,7 +18,7 @@ const Header = () => {
             <div className="data">
               <p>Тилеков Бекжан </p>
               <p>Телефон: +999 706 959 185</p>
-              <p>адрес: Ала-Мышык 4/614</p>
+              {/* <p>адрес: Ала-Мышык 4/614</p> */}
               <p>tilekovdekjan999@gmail.com</p>
               <p>Frontend - разработчик</p>
             </div>
@@ -33,6 +33,7 @@ const Header = () => {
             <p>6. Терпение</p>
             <h1>Навыки</h1>
             <p>-html</p>
+            <p>-css</p>
             <p>-javaScript</p>
             <p>-react</p>
             <p>-git</p>
