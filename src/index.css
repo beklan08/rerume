@@ -39,7 +39,7 @@
   background-color: aliceblue;
 }
 
-footer {
+.ffooter {
   width: full;
   height: 800px;
   color: aliceblue;
@@ -103,3 +103,15 @@ footer {
     margin: 30px 0 10px 0 ;
 }
 
+
+
+
+
+@media (max-width: 600px) {
+  .moniker {
+    display: none;
+  }
+  .ffooter {
+    display: none;
+  }
+}

@@ -1,10 +1,9 @@
-import React from "react";
-import profile from "../assets/face.jpg";
+import React from 'react'
 
-const Header = () => {
+const Mheader = () => {
   return (
     <>
-      <header className="moniker">
+      <header className="moniker w-full h-[200px] bg-black-500 text-aliceblue">
         <h1 className="prog">(Програмист)</h1>
         <div className="conte">
           <h1 className="monicker">тилеков бекжан</h1>
@@ -61,7 +60,7 @@ const Header = () => {
         </div>
       </footer>
     </>
-  );
-};
+  )
+}
 
-export default Header;
+export default Mheader
